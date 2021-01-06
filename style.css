@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+/* NAVBAR DESIGN */
+nav{
+    background-color: #ffffff;
+    height: 70px;
+}
+
+
+.navbar{
+    float: right;
+    padding: 25px;
+}
+
+.navbar ul{
+    margin-right: 130px;
+}
+
+.navbar ul li{
+    float: left;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    
+}
+
+.navbar ul li a:hover{
+    color: gray;
+    transition: 0.3s all ease;
+}
+
+/* TOP SECTION DESIGN */
+
+section{
+    height: 600px;
+    padding: 50px;
+}
+
+.mid-section{
+    background-color: #fff;
+}
+
+.left-width{
+    float: left;
+    width: 40%;
+    padding: 70px;
+    margin-left: 40px;
+}
+
+#first-title{
+    color: #363958;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#second-title{
+    color: #ff4d4d;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.left-width p{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #2d3436;
+}
+
+.right-width{
+    float: left;
+    width: 40%;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+.right-width img{
+    width: 100%;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 15px 45px;
+    background-image: linear-gradient(180deg, #F56266, #FC7550);
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+/* MID SECTION DESIGN */
+.mid-section{
+    margin-bottom: 50px;
+}
+
+.mid-section .right-width{
+    margin-right: 100px;
+}
+
+.second-mid-bg{
+    background-color: #F8F9FC;
+}
+
+.mid-title{
+    text-align: center;
+    margin: 40px 0px;
+    font-size: 25px;
+}
+
+.mid-title h1{
+    color: #363958;
+}
+
+.title-text{
+    color: #ff4d4d;
+}
+
+.card-div{
+    width: 1000px;
+    margin: auto;
+    padding: 30px;
+}
+
+.card-div .box{
+    width: 31%;
+    padding: 20px;
+    background-color: #FFFFFF;
+    float: left;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 0px 10px 35px -20px rgba(173,155,173,1);
+}
+
+.box img{
+    width: 100%;
+}
+
+.box h4{
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+.box-margin{
+    margin-right: 20px;
+}
+
+
+/* BOTTOM SECTION */
+.bottom-section{
+    /* margin: 50px 0px; */
+    padding: 70px;
+}
+
+.inquiry-field{
+    width: 815px;
+    height: 200px;
+    margin: auto;
+    padding: 50px;
+    background-image: url("images/Group_33094_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.inquiry-field img{
+    width: 100%;
+}
+
+.inquiry-field h1{
+    float: left;
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.inquiry-field a{
+    float: right;
+}
+
+.contact-field{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-field h4{
+    color: dimgray;
+}
+
+.contact-field p{
+    color: #363958;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.social{
+    list-style: none;
+    width: 300px;
+    margin: auto;
+}
+
+.social li{
+    display: inline;
+    margin: 10px;
+}
+
+.social img{
+    width: 45px;
+    height: 45px;
+}
+
+/* FOOTER DESIGN */
+footer p{
+    text-align: center;
+    color: dimgray;
+    margin-bottom: 20px;
+}
+
+
