@@ -1,0 +1,1 @@
+It is my first assignment with Programming Hero team. It is a simple portfolio website using basic HTML and CSS.
